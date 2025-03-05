@@ -4,3 +4,9 @@ body {
     color: #ffffff;
     font-family: Arial, sans-serif;
   }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
