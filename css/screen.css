@@ -1,6 +1,6 @@
 body {
     padding: 20px;
-    background: linear-gradient(to bottom, #1e1e1e, #323232, #4a4a4a); 
+    background-color: linear-gradient(to bottom, #1e1e1e, #323232, #4a4a4a); 
     color: #ffffff;
     font-family: Helvetica, Arial, sans-serif;
   }
