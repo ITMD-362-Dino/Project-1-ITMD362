@@ -41,6 +41,13 @@ form {
     margin-bottom: 10px;
     padding: 10px;
     font-size: 1rem;
+  }  
+  
+  input:focus {
+    outline: none;
+    border: 2px solid aqua;
+    background-color: #555;
+    color: white;
   }
 
 button {
