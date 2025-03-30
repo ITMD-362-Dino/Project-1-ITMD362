@@ -35,7 +35,7 @@ form {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
-  label, input {
+label, input {
     display: block;
     width: 90%;
     margin-bottom: 10px;
@@ -44,12 +44,31 @@ form {
     text-align: center;
   }  
 
-  input:focus {
+input:focus {
     outline: none;
     border: 2px solid aqua;
     background-color: #555;
     color: white;
   }
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+.radio-group label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+  }  
 
 button {
     background-color: #0000008a;
