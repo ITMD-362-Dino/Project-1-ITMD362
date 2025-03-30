@@ -5,6 +5,12 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }  
+
 h1 {
     text-align: center;
     margin-bottom: 75px;
