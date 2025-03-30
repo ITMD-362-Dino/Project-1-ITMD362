@@ -16,6 +16,20 @@
   <form id="signupForm" method="get" action="#null" autocomplete="on" onsubmit="submitApplication()">
     <input type="text" id="teamName" placeholder="Team Name" required>
     <input type="email" id="email" placeholder="Email Address" required>
+    <p>Select tournament type:</p>
+
+<div class="radio-group">
+  <label>
+    <input type="radio" name="tourneyType" value="warzone" required>
+    Warzone Team
+  </label>
+
+  <label>
+    <input type="radio" name="tourneyType" value="multiplayer">
+    Multiplayer Team
+  </label>
+</div>
+
     <button type="submit">Sign Up</button>    
   </form>
 </body>
